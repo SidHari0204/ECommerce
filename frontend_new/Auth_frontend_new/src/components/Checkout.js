@@ -7,7 +7,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-const stripePromise = loadStripe('pk_test_51PmqBRHtCUiqNOuoKC4Hn2zrHCspdOnniuEGSqkvc76oGSsdKcjpJGy8uX8U3lmMn20gikL9ODxUMGIpqOprGNxL00hhmVY6HN');
+const stripePromise = loadStripe('YOUR_STRIPE_API_KEY');
 
 const Checkout = () => {
   const [cartItems, setCartItems] = useState([]);
