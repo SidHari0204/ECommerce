@@ -26,7 +26,7 @@ const Navbar = () => {
             <Link className="nav-link" to="/cart">Cart</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/order-history">Order History</Link>
+            <Link className="nav-link" to="/order-history">History</Link>
           </li>
         </ul>
         <ul className="navbar-nav ml-auto">
