@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+</head>
+<body>
+  <h1>Welcome to your Dashboard, <%= user.displayName %>!</h1>
+  <div>
+    <img src="<%= user.image %>" alt="Profile Picture">
+    <p>Name: <%= user.displayName %></p>
+    <p>Email: <%= user.email %></p>
+  </div>
+  <a href="/logout">Logout</a>
+</body>
+</html>

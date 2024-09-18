@@ -1,0 +1,111 @@
+/* General container styling */
+.cart-container {
+    padding-top: 60px;
+  }
+  
+  .cart-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .empty-cart-message {
+    font-size: 1.25rem;
+    color: #555;
+    text-align: center;
+  }
+  
+  /* Card styling */
+  .cart-item-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .cart-item-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .product-price, .product-quantity, .product-subtotal {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  /* Button Styling */
+  .delete-item-btn, .confirm-delete-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-item-btn:hover, .confirm-delete-btn:hover {
+    background-color: #d94444;
+  }
+  
+  /* Delete confirmation section */
+  .delete-confirmation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .delete-quantity-input {
+    width: 100%;
+    max-width: 80px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Total section styling */
+  .total-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .total-price {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .checkout-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 767px) {
+    .total-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .checkout-btn {
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+  

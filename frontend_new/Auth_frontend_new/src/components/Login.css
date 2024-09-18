@@ -1,0 +1,82 @@
+.login-container {
+  display: flex;
+  flex-direction: row; /* To align the welcome and login sections side-by-side */
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.welcome-section {
+  flex: 1;
+  background-color: #fbc02d; /* Bright yellow from the reference */
+  color: white;
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.welcome-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.welcome-section p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.welcome-section img {
+  max-width: 100%; 
+  height: auto;
+  margin-top: 20px;
+}
+
+.login-form-container {
+  flex: 1;
+  background: white;
+  padding: 110px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+  margin-right: 0px; /* Margin adjustment */
+}
+
+.login-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-control {
+  height: 50px;
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%; /* Set to full width of the container */
+  max-width: 400px; /* Set a specific width, e.g., 400px */
+}
+
+.btn-primary {
+  background-color: #167bff;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn-danger {
+  background-color: #e63946;
+  padding: 15px;
+  font-size: 1.2rem;
+  width: 100%;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}

@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile-icon .dropdown-toggle {
+    background: none;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .dashboard{
+    margin-top: 100px;
+  }

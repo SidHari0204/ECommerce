@@ -1,0 +1,73 @@
+body {
+  background-color: #f4f6f9;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.auth-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full-screen height */
+}
+
+.welcome-section {
+  background-color: #fdbb2d;
+  color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  height: 100vh; /* Full height for the left side */
+}
+
+.welcome-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.welcome-section p {
+  font-size: 1.2rem;
+  max-width: 300px;
+}
+
+.welcome-section img {
+  width: 250px;
+  margin-top: 20px;
+}
+
+.login-form-container {
+  width: 50%;
+  padding: 100px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-form-container h3 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.login-form-container .form-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-form-container .btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+}
+
+.signup-prompt {
+  margin-top: 20px;
+  text-align: center;
+}
